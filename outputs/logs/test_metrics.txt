@@ -1,0 +1,15 @@
+Test Evaluation (Best Checkpoint)
+==================================================
+test_loss: 0.018140
+test_accuracy: 0.993459
+overall_accuracy: 0.993459
+macro_f1: 0.990926
+
+Confusion Matrix (rows=true, cols=pred)
+Classes: bacterial, fungal
+[[ 320    0]
+ [   9 1047]]
+
+Per-class metrics
+bacterial: precision=0.972644, recall=1.000000, f1=0.986133, support=320
+fungal: precision=1.000000, recall=0.991477, f1=0.995720, support=1056

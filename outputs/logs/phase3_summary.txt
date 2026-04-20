@@ -1,0 +1,30 @@
+Phase 3 Summary: Biological Interpretation Layer
+================================================
+
+1) Final model task
+- The ResNet18 model classifies tomato leaf images into two classes only:
+  - bacterial
+  - fungal
+
+2) Final test performance summary
+- Test accuracy: 0.993459
+- Macro F1-score: 0.990926
+
+3) Confusion matrix interpretation
+- Confusion matrix (rows=true, cols=pred):
+  [[320, 0],
+   [9, 1047]]
+- Interpretation:
+  - All bacterial test samples were correctly classified.
+  - A small number of fungal samples were predicted as bacterial.
+  - Overall class separation is strong and consistent.
+
+4) Gene interpretation layer explanation
+- The project includes curated tomato gene information for both classes in:
+  data/gene_interpretation.json
+- After class prediction, the system maps the predicted class to tomato-specific
+  curated genes and returns a short biological interpretation.
+
+5) Important limitation
+- The model predicts only fungal vs bacterial class. Genes are shown as curated
+  biological interpretation and are not predicted directly from the image.

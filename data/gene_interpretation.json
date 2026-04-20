@@ -1,0 +1,44 @@
+{
+  "fungal": [
+    {
+      "gene": "R1 gene family",
+      "plant": "Tomato",
+      "role": "Pathogen detection",
+      "description": "Derived from late blight resistance homolog R1A-3 in tomato. These genes help detect fungal pathogens and initiate immune response.",
+      "source": "https://www.ncbi.nlm.nih.gov/gene/101246620"
+    },
+    {
+      "gene": "NRC4",
+      "plant": "Tomato",
+      "role": "Immune signaling",
+      "description": "Helper NLR receptor that activates immune signaling and cell death after pathogen detection.",
+      "source": "https://doi.org/10.1093/plphys/kiaf506"
+    },
+    {
+      "gene": "PR1 protein",
+      "plant": "Tomato",
+      "role": "Defense response",
+      "description": "Pathogenesis-related protein produced during infection that helps inhibit pathogen growth.",
+      "source": "https://www.ncbi.nlm.nih.gov/gene/544123"
+    }
+  ],
+  "bacterial": [
+    {
+      "gene": "Pto resistance gene",
+      "plant": "Tomato",
+      "role": "Pathogen detection",
+      "description": "Recognizes bacterial effector proteins such as AvrPto and initiates immune response.",
+      "source": "https://doi.org/10.1105/tpc.6.4.511"
+    },
+    {
+      "gene": "Prf resistance gene",
+      "plant": "Tomato",
+      "role": "Immune signaling",
+      "description": "Forms a complex with Pto to activate downstream signaling pathways leading to bacterial defense.",
+      "source": "https://doi.org/10.1038/s41467-023-38103-6"
+    }
+  ],
+  "disclaimer": {
+    "text": "These genes are curated from scientific sources and are used only for biological interpretation of the predicted class. They are not predicted directly by the model."
+  }
+}
